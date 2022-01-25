@@ -6,14 +6,14 @@ After loading the data and performing exploratory data analysis, model selection
 
 Import the joblib library and save model
 
-```IPython Notebook
+```Python
 from joblib import dump, load
 dump(trained_model, 'filename.joblib')
 ```
 
 Load joblib anywhere using python
-```IPython Notebook
-saved_model = load('filename.joblib)
+```Python
+saved_model = load('filename.joblib')
 ```
 
 The saved model can then be used to test new samples of data.
